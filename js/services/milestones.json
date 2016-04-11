@@ -1,0 +1,130 @@
+{
+  "milestones": [
+	{
+	  "id": 0,
+      "age": 11,
+	  "miles" : "Learn new good habits",
+      "icon": "img/landscape.png"
+    },
+    {
+	  "id": 1,
+      "age": 15,
+	  "miles" : "Its time for first crush",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 2,
+      "age": 19,
+	  "miles" : "Look for Full time Job",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 3,
+      "age": 20,
+	  "miles" : "Pass your driving test",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 4,
+      "age": 21,
+	  "miles" : "First Holiday with friends",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 5,
+      "age": 22,
+	  "miles" : "Move out and explore",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 6,
+      "age": 23,
+	  "miles" : "Be a Bridesmaid or Best Man",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 7,
+      "age": 24,
+	  "miles" : "Its time to rent on your own",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 8,
+      "age": 25,
+	  "miles" : "Get Engaged",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 9,
+      "age": 27,
+	  "miles" : "Get Married",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 10,
+      "age": 28,
+	  "miles" : "Have First Child",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 11,
+      "age": 29,
+	  "miles" : "Buy First House",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 12,
+      "age": 30,
+	  "miles" : "Please do charity and donations",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 13,
+      "age": 31,
+	  "miles" : "Have a Second Child",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 14,
+      "age": 32,
+	  "miles" : "Buy a Brand new Car",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 15,
+      "age": 34,
+	  "miles" : "Become a manager at work",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 16,
+      "age": 35,
+	  "miles" : "Think about starting a business",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 17,
+      "age": 36,
+	  "miles" : "Start enjoying two holidays per year",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 18,
+      "age": 37,
+	  "miles" : "Start earning 40K a year",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 19,
+      "age": 39,
+	  "miles" : "Look at buying property to let",
+      "icon": "img/landscape.png"
+    },
+	{
+	  "id": 20,
+      "age": 60,
+	  "miles" : "Time to retire",
+      "icon": "img/landscape.png"
+    }
+  ]
+}

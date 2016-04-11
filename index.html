@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AJS Age Calculator</title>
+
+<!--bootstrap-->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<!--site Styles-->
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/ajsac.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-col5.css" rel="stylesheet" type="text/css">
+<link href="ui/jquery-ui.min.css" rel="stylesheet" type="text/css">
+
+<!-- Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700italic,700,900,900italic' rel='stylesheet' type='text/css'>
+
+<!--scripts -->
+<script src="js/angular.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- Services -->
+    <script src="js/services/milestones.js"></script>
+</head>
+
+<body ng-app="ajsAgeCalculator">
+
+<section class="ac_wrap" ng-controller="ajsacController">
+	<div class="container">
+		<div class="row">
+			<h1 class="app_title"> Age Calculator</h1>
+			<div class="app_logo">
+				<img src="img/food.png" class="img-responsive" alt="app_logo">
+			</div>
+			<div >
+				<form class="age_form">
+				  <div class="form-group">
+					<input type="text" class="form-control" placeholder="Name here" ng-model="uname">
+				  </div>
+				  <div class="form-group">
+					<input type="text" class="form-control" placeholder="mm/dd/yyyy" ng-model="dob">
+				  </div>
+				</form>
+				
+				<h2 class="age_pl">U'r <span>{{ calculateAge(dob) }}</span> years old</h2>
+			</div>
+			<div class="age_miles">
+				<div class="row">
+					<div class="col-md-4 col-xs-4">
+						<div class="img_miles">
+							<img src="img/landscape.png" class="img-responsive" alt="img_miles">
+						</div>
+					</div>
+					<div class="col-md-8 col-xs-8">
+						<h2 class="age_mil">{{ uname }} !!! It's time to rent on your own</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!-- Script start -->
+<script type="text/javascript" src="js/jquery.min.js" /></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" /></script>
+<script type="text/javascript" src="ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" /></script>
+<script type="text/javascript" src="js/wow.min.js" /></script>
+
+</body>
+</html>
